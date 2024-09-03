@@ -19,6 +19,19 @@ h1{
     height: 24px;
     display: inline-block; 
     background-image: url(logo2A.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 
+}
+
+.cabecalho{
+    background: var(--cor-de-fundo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho__imagem{
+width: 24px;
+right: 24px;
 
 }
